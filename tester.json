@@ -1,20 +1,8 @@
-{"users":[
+{"data":[
         {
-            "firstName":"Ray",
-            "lastName":"Villalobos",
-            "joined": {
-                "month":"January",
-                "day":12,
-                "year":2012
-            }
-        },
-        {
-            "firstName":"John",
-            "lastName":"Jones",
-            "joined": {
-                "month":"April",
-                "day":28,
-                "year":2010
-            }
+            "title":"Stream",
+            "data":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc massa, elementum tempor euismod eget, viverra auctor ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque eu elementum libero. Curabitur vel placerat lacus.",
+            "image": chipotle.jpg
         }
+    
 ]}
