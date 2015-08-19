@@ -12,10 +12,10 @@
 			<script type="text/javascript">
     $.getJSON( "https://raw.githubusercontent.com/andysm1th/Data/master/dataStream.json" , function( data ){
 
-	document.getElementById("title").innerHTML = data.info[3].title;
-	document.getElementById("stream").innerHTML = data.info[3].stream;
-    $('#image').html(data.info[3].image);
-	var $img = $("<img />").attr('src', data.info[3].image);
+	document.getElementById("title").innerHTML = data.info[2].title;
+	document.getElementById("stream").innerHTML = data.info[2].stream;
+    $('#image').html(data.info[2].image);
+	var $img = $("<img />").attr('src', data.info[2].image);
   $('#image').empty().append($img);
 	});
 
