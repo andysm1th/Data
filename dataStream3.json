@@ -1,7 +1,10 @@
 {
-	"info": {
-		"title": "data stream 3",
-		"stream": 23451234,
-		"image": "drake.jpg"
-	}
+	"info": [
+		"title",
+		"data stream 3",
+		"stream",
+		23451234,
+		"image",
+		"drake.jpg"
+	]
 }
