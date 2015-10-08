@@ -21,6 +21,12 @@
         templateUrl: "product-specs.html"
       };
     });
+	 app.directive("secondSpecs", function() {
+      return {
+        restrict:"A",
+        templateUrl: "secondSpecs.html"
+      };
+    });
 
     app.directive("productTabs", function() {
       return {
@@ -45,6 +51,19 @@
       return {
         restrict: "E",
         templateUrl: "product-gallery.html",
+        controller: function() {
+          this.current = 0;
+          this.setCurrent = function(imageNumber){
+            this.current = imageNumber || 0;
+          };
+        },
+        controllerAs: "gallery"
+      };
+    });
+	    app.directive("secondGallery", function() {
+      return {
+        restrict: "E",
+        templateUrl: "second-gallery.html",
         controller: function() {
           this.current = 0;
           this.setCurrent = function(imageNumber){
