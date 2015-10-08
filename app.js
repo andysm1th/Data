@@ -11,7 +11,7 @@
 app.controller('secondCollect', ['$http', function($http){
     var second = this;
     second.data = [];
-    $http.get('https://raw.githubusercontent.com/ogsmith/Data/master/store-products.json').success(function(data){
+    $http.get('https://raw.githubusercontent.com/ogsmith/Data/master/data2.json').success(function(data){
         second.data = data;
     });
   }]);
